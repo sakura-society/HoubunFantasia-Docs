@@ -28,7 +28,7 @@ const config = {
   plugins: [
     require.resolve('docusaurus-plugin-image-zoom'),
     require.resolve("@cmfcmf/docusaurus-search-local"),
-    
+
   ],
 
   presets: [
@@ -100,14 +100,18 @@ const config = {
           autoCollapseCategories: true,
         },
       },
-      metadata: [
-        { name: "keywords", content: "芳文社,houbunsha,同人游戏,Unity,游戏,芳文狂想曲,Houbunfantasia" },
+      metadata: [{
+          name: "keywords",
+          content: "芳文社,houbunsha,同人游戏,Unity,游戏,芳文狂想曲,Houbunfantasia"
+        },
         {
           name: "description",
-          content:
-            "一款芳文社为主题的同人游戏.",
+          content: "一款芳文社为主题的同人游戏.",
         },
-        { name: "og:image", content: "https://lerna.js.org/images/og-image-lerna.png" },
+        {
+          name: "og:image",
+          content: "https://lerna.js.org/images/og-image-lerna.png"
+        },
       ],
       navbar: {
         title: "Kirara!",
@@ -116,8 +120,7 @@ const config = {
           src: "images/favicon.ico",
           srcDark: "images/favicon-dark.ico",
         },
-        items: [
-          {
+        items: [{
             type: "doc",
             docId: "/GameDev",
             position: "left",
@@ -129,10 +132,21 @@ const config = {
             position: "left",
             label: "超·教程",
           },
-          { to: "/join", label: "加入我们", position: "left" },
-          { to: "/free-get", label: "免费激活码", position: "left" },
-          { to: "https://hbf.cloud.mattermost.com/plugins/focalboard/team/ho5r3x4477bbicudnt1gbkgr4w/shared/bpq63opteqpgx5qi8dbtyphpc3y/vzia9ym7aji8ifekbrc53n145uh?r=kqwcct3y7tjqwqze5wh6spghafa", label: "项目看板", position: "right" },
-          { to: "https://kirara.sakurakoi.top/blog", label: "博客", position: "right" },
+          {
+            to: "/join",
+            label: "加入我们",
+            position: "left"
+          },
+          {
+            to: "/free-get",
+            label: "免费激活码",
+            position: "left"
+          },
+          {
+            to: "https://hbf.cloud.mattermost.com/plugins/focalboard/team/ho5r3x4477bbicudnt1gbkgr4w/shared/bpq63opteqpgx5qi8dbtyphpc3y/vzia9ym7aji8ifekbrc53n145uh?r=kqwcct3y7tjqwqze5wh6spghafa",
+            label: "项目看板",
+            position: "right"
+          },
           // {
           //   href: "https://nx.dev",
           //   className: "header-nxdev-link",
@@ -168,11 +182,9 @@ const config = {
         hideOnScroll: true,
       },
       footer: {
-        links: [
-          {
+        links: [{
             title: "帮助",
-            items: [
-              {
+            items: [{
                 label: "帮助文档",
                 to: "/docs/help",
               },
@@ -184,8 +196,7 @@ const config = {
           },
           {
             title: "社区",
-            items: [
-              {
+            items: [{
                 label: "Twitter",
                 href: "https://twitter.com/kaosu_sensei",
               },
@@ -205,8 +216,7 @@ const config = {
           },
           {
             title: "姊妹网站",
-            items: [
-              {
+            items: [{
                 label: "Sakura Society",
                 href: "https://sakurakoyi.top",
               },
