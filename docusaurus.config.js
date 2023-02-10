@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "HuobunFantasia",
   tagline: "一款芳文同人游戏",
-  url: "https://docs.sakurakoi.top",
+  url: "https://kirara.sakurakoi.top",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -145,6 +145,11 @@ const config = {
           {
             to: "/docs/kanborad",
             label: "项目看板",
+            position: "right"
+          },
+          {
+            to: "https://kirakira.sakurakoi.top",
+            label: "新版官网",
             position: "right"
           },
           // {

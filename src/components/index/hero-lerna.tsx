@@ -49,6 +49,11 @@ export default function HeroLerna(): JSX.Element {
                   获取游戏！
                 </a>
               </div>
+              <div className="col col--5">
+                <a href="https://kirakira.sakurakoi.top" className="button button--lg button--block button--primary">
+                  新版官网
+                </a>
+              </div>
             </div>
           </div>
           <div className="col col--4">
