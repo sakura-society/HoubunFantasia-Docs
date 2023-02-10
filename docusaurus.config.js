@@ -143,7 +143,7 @@ const config = {
             position: "left"
           },
           {
-            to: "https://hbf.cloud.mattermost.com/plugins/focalboard/team/ho5r3x4477bbicudnt1gbkgr4w/shared/bpq63opteqpgx5qi8dbtyphpc3y/vzia9ym7aji8ifekbrc53n145uh?r=kqwcct3y7tjqwqze5wh6spghafa",
+            to: "/docs/kanborad",
             label: "项目看板",
             position: "right"
           },
@@ -189,8 +189,8 @@ const config = {
                 to: "/docs/help",
               },
               {
-                label: "QQ频道",
-                href: "https://pd.qq.com/s/egfs0th8i",
+                label: "QQ群",
+                href: "https://jq.qq.com/?_wv=1027&k=Hg0RpVVI",
               },
             ],
           },
@@ -205,8 +205,8 @@ const config = {
                 href: "https://github.com/sakura-society",
               },
               {
-                label: "QQ频道",
-                href: "https://pd.qq.com/s/egfs0th8i",
+                label: "QQ群",
+                href: "https://jq.qq.com/?_wv=1027&k=Hg0RpVVI",
               },
               {
                 label: "bilibili",

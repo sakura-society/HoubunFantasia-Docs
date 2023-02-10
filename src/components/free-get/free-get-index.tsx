@@ -10,7 +10,7 @@ import clsx from "clsx";
 import styles from "./free-get-index.module.css";
 export default function HeroUpgrade(): JSX.Element {
   const MailCommand = "misaka10843@outlook.jp";
-  const QQCommand = "https://pd.qq.com/s/egfs0th8i";
+  const QQCommand = "https://jq.qq.com/?_wv=1027&k=Hg0RpVVI";
 
   const [copied, setCopied] = useState(false);
   useEffect(() => {
@@ -84,7 +84,7 @@ export default function HeroUpgrade(): JSX.Element {
               <div className={clsx("wow fadeIn slow", styles.commands_container)}>
                 <h3>
                   <AtSymbolIcon className={styles.commands_icon} stroke="currentColor" aria-hidden="true" />
-                  QQ频道
+                  QQ群
                 </h3>
                 <CopyToClipboard
                   text={QQCommand}

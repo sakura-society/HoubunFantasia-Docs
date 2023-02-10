@@ -59,6 +59,7 @@ const sidebars = {
         slug: "/course",
       },
     },
+    "kanborad",
   ],
 };
 
