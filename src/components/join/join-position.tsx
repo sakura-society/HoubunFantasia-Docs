@@ -22,13 +22,13 @@ export default function HowToUpgrade(): JSX.Element {
             <th>数量</th>
           </tr>
           <tr>
-            <td data-th="职位"><span className={styles.prior}>缺</span>游戏开发</td>
+            <td data-th="职位"><span className={styles.prior}>缺•急</span>游戏开发</td>
             <td data-th="简介">负责游戏系统功能、剧情、玩法框架的设计及优化</td>
             <td data-th="类别">程序</td>
             <td data-th="数量">2-5</td>
           </tr>
           <tr>
-            <td data-th="职位"><span className={styles.prior}>缺</span>角色设计</td>
+            <td data-th="职位"><span className={styles.prior}>缺•急</span>角色设计</td>
             <td data-th="简介">游戏角色的贴图制作，并能够制作与设计符合漫画角色中的待机、移动、攻击等动作</td>
             <td data-th="类别">美术</td>
             <td data-th="数量">2-8</td>
@@ -46,7 +46,7 @@ export default function HowToUpgrade(): JSX.Element {
             <td data-th="数量">1-2</td>
           </tr>
           <tr>
-            <td data-th="职位"><span className={styles.prior}>缺</span>剧情任务策划</td>
+            <td data-th="职位"><span className={styles.prior}>缺•急</span>剧情任务策划</td>
             <td data-th="简介">可以参考漫画剧情线设计规划制作，根据剧情策划提供的内容，细化任务流程，进行任务的设计和制作</td>
             <td data-th="类别">策划</td>
             <td data-th="数量">1-2</td>
